@@ -1,0 +1,49 @@
+
+.slider {
+    appearance: none;
+    outline: none;
+    background-color: #646464;
+    border-radius: 8px;
+    height: 8px;
+    width: 100%;
+    box-shadow: inset 0px 2px 3px 2px #202020;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+
+/* slider handle style for Safary, Chome and Edge */
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #47FF71;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* slider handle style for Firefox */
+.slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: #47FF71;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    width: 90%;
+    padding: 4px 6px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    border: 2px solid;
+    background-color:#000000;
+  }
+
+input[type="text"]:focus {
+    border-color:#47FF71;
+    outline: none;
+}

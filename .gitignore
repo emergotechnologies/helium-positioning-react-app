@@ -17,6 +17,7 @@
 *.dat
 *password*
 *.httr-oauth*
+*.txt
  
 # Private Node Modules
 node_modules/

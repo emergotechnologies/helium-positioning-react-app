@@ -4,7 +4,7 @@ import { Map, NavigationControl, Source, Layer } from 'react-map-gl';
 import "mapbox-gl/dist/mapbox-gl.css";
 import * as turf from '@turf/turf';
 
-mapboxgl.accessToken = 'pk.eyJ1IjoiM2RnbGFkaWF0b3IiLCJhIjoiY2xlaDh0bTJxMGIwdzN2cWZudWZtemt6NiJ9.0lDb0FGEL2kjq0rqTL0jyg'
+mapboxgl.accessToken = '' /* your mapbox API key goes here! */
 
 // STYLE MAP ELEMENTS
 
